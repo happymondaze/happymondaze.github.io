@@ -1,0 +1,39 @@
+html {
+
+}
+
+
+body{background-color: #fcee23; font-family: "Arial Black", Gadget, sans-serif;}
+
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.social{height: 60px; background-color: #333333;}
+
+#subtitle{text-align: left;}
+
+#yellow{color: #fcee23;}
+
+#gig{color: white;}
+
+
+a:link {color:white;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {color:#fcee23;}  /* mouse over link */
+a:active {color:#fcee23;}  /* selected link */
+
+
