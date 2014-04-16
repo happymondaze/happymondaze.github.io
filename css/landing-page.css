@@ -36,4 +36,9 @@ a:visited {color:white;}  /* visited link */
 a:hover {color:#fcee23;}  /* mouse over link */
 a:active {color:#fcee23;}  /* selected link */
 
+blockquote {
+    border-left: none;
+line-height: 1.0;
+}
+
 
