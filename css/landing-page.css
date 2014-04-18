@@ -3,9 +3,9 @@ html {
 }
 
 
-body{background-color: #fcee23; font-family: "Arial Black", Gadget, sans-serif;}
+body{background-color: #fcee23; font-family: 'Arial Black', Arial; font-weight: 900 !important;}
 
-
+h1 {font-weight; 900 !important;}
 
 .videoWrapper {
 	position: relative;
@@ -24,12 +24,17 @@ body{background-color: #fcee23; font-family: "Arial Black", Gadget, sans-serif;}
 
 .social{height: 60px; background-color: #333333;}
 
-#subtitle{text-align: left;}
+.social h1{text-align: center; padding-top: 10px; color: white; font-weight: 900;}
 
-#yellow{color: #fcee23;}
+.sectitle {padding-top: 8px; color: #fcee23; margin-bottom: 20px; font-weight: 900 !important;}
 
-#gig{color: white;}
+#responsive{text-align: left; font-weight: 900;}
 
+#gig{color: white; font-weight: 900; margin-bottom: 35px;}
+
+#qoutes {margin: 20px 0px 25px 0px; }
+
+a {text-decoration: none !important;}
 
 a:link {color:white;}      /* unvisited link */
 a:visited {color:white;}  /* visited link */
