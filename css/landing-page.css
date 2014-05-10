@@ -3,7 +3,7 @@ html {
 
 
 
-body{background: url('/images/bg.png') no-repeat center center; 
+body{background: url('http://www.happymondaze.co.uk/images/bg.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,7 +39,9 @@ h1 {font-weight; 900 !important;}
 
 #responsive{text-align: left; font-weight: 900; color: white; vertical-align: middle; margin: 0px;}
 
-#gig{color: white; font-weight: 900; margin-bottom: 35px;}
+.gig{color: white; font-weight: 900; margin-bottom: 15px;}
+
+
 
 .dg {background-color: #333333; margin-top: 40px;}
 
@@ -55,14 +57,23 @@ h1 {font-weight; 900 !important;}
 
 a {text-decoration: none !important;}
 
-a:link {color:white;}      /* unvisited link */
-a:visited {color:white;}  /* visited link */
-a:hover {color:#fcee23;}  /* mouse over link */
-a:active {color:#fcee23;}  /* selected link */
+a:link, a:visited {color:white;}       
+
+a:hover, a:active  {color:#fcee23;} 
+
+a.yellow:link, a.yellow:visited, a.yellow:hover, a.yellow:active {color:#fcee23;}  
+
+a.white:link, a.white:visited, a.white:hover, a.white:active {color:white;}  
+
+   .yellow {color:#fcee23;}
+
 
 blockquote {
     border-left: none;
 line-height: 1.2;
 }
+
+.gig-info h2{white-space: nowrap;}
+
 
 
