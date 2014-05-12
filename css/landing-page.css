@@ -1,5 +1,3 @@
-html{}
-
 body{background: url('http://www.happymondaze.co.uk/images/bg.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -36,7 +34,7 @@ h1 {font-weight; 900 !important;}
 
 #responsive{text-align: left; font-weight: 900; color: white; vertical-align: middle; margin: 0px;}
 
-.gig{color: white; font-weight: 900; margin-bottom: 15px; margin-left: 0px; white-space: nowrap;}
+.gig{color: white; font-weight: 900; margin-bottom: 15px; margin-left: -10px; white-space: nowrap;}
 
 
 
@@ -44,7 +42,7 @@ h1 {font-weight; 900 !important;}
 
 @media(max-width:767px){.sectitle {padding-top: 10px;}
 #qoutes {padding: 0px 0px 8px 0px;}
- .gig{white-space: normal;}
+ .gig{white-space: normal; margin-left: -10px;}
 
 }
 
