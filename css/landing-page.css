@@ -1,3 +1,8 @@
+html {
+}
+
+
+
 body{background: url('http://www.happymondaze.co.uk/images/bg.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -42,9 +47,9 @@ h1 {font-weight; 900 !important;}
 
 @media(max-width:767px){.sectitle {padding-top: 10px;}
 #qoutes {padding: 0px 0px 8px 0px;}
- .gig{white-space: normal; margin-left: -10px;}
+ .gig{white-space: normal;}
 
-}
+.gig-info h2{font-size: 14px;}}
 
 
 
@@ -73,4 +78,6 @@ line-height: 1.2;
 .gig-info h2{white-space: nowrap;}
 
 
+.gigdetail{font-size: 18px; font-weight: 900;}
 
+.moredetail {margin-left: -25px;}
