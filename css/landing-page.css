@@ -81,3 +81,9 @@ line-height: 1.2;
 .gigdetail{font-size: 18px; font-weight: 900;}
 
 .moredetail {margin-left: -25px;}
+
+.venue{margin-left: 40px;}
+
+@media(max-width:767px){.venue{margin-left: 12px;}
+
+
