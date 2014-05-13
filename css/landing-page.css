@@ -4,7 +4,7 @@ html {
 
 
 body{font-family: 'Arial Black', Arial; background-color: #fcee23;}
-}
+
 
 #fixedbg{
     background:url('http://www.happymondaze.co.uk/images/bg.png') no-repeat center center;
@@ -16,7 +16,7 @@ body{font-family: 'Arial Black', Arial; background-color: #fcee23;}
     position:fixed;
     width:100%;
     z-index:-1;
-    top:0;
+    top:0;}
  
 h1 {font-weight; 900 !important;}
 
