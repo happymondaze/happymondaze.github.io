@@ -3,7 +3,8 @@ html {
 
 
 
-body{font-family: 'Arial Black', Arial;}
+body{font-family: 'Arial Black', Arial; background-color: #fcee23;}
+}
 
 #fixedbg{
     background:url('http://www.happymondaze.co.uk/images/bg.png') no-repeat center center;
@@ -16,8 +17,7 @@ body{font-family: 'Arial Black', Arial;}
     width:100%;
     z-index:-1;
     top:0;
-  background-color: #fcee23;}
-
+ 
 h1 {font-weight; 900 !important;}
 
 #video {margin-top: 20px;}
