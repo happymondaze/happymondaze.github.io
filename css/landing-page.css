@@ -1,9 +1,5 @@
-html {
-}
+body{font-family: 'Arial Black', Arial;}
 
-
-
-body{font-family: 'Arial Black', Arial; background-color: #fcee23;}
 
 
 #fixedbg{
@@ -16,8 +12,9 @@ body{font-family: 'Arial Black', Arial; background-color: #fcee23;}
     position:fixed;
     width:100%;
     z-index:-1;
-    top:0;}
- 
+    top:0;
+  background-color: #fcee23;}
+
 h1 {font-weight; 900 !important;}
 
 #video {margin-top: 20px;}
@@ -37,21 +34,35 @@ h1 {font-weight; 900 !important;}
 
 }
 
+p {color: white; font-size: 2em; line-height: 1.3em; margin-bottom: 1.2em;}
+
+
+@media(max-width:767px){.paragraph {font-size: 1.2em;}}
+  
+@media (max-width: @screen-sm-min){
+.paragraph {font-size: 1.8em;}}
+
+@media (min-width: @screen-md-min) {.paragraph {font-size: 2.2em;}}
+
+.body {color: white;}
+
 .social{height: 60px; background-color: #333333;}
 
-.social h1{text-align: center; padding-top: 10px; color: white; font-weight: 900;}
+.social h1, h2 {text-align: center; padding-top: 10px; color: white; font-weight: 900; white-space: nowrap;}
 
 .sectitle {color: #fcee23; margin-bottom: 20px; font-weight: 900 !important;}
 
 #subtitle{background-color: #8A8A8A; margin: 15px 0px 15px 0px; padding: 10px;}
 
-#responsive{text-align: left; font-weight: 900; color: white; vertical-align: middle; margin: 0px;}
+#responsive{text-align: left; font-weight: 900; color: #333333; vertical-align: middle; margin: 0px; padding-top: 10px; padding-bottom: 10px;}
 
 .gig{color: white; font-weight: 900; margin-bottom: 15px; margin-left: -10px; white-space: nowrap;}
 
-
+.read-more-show, .read-more-hide {font-size: 2.5em; text-align: center;}
 
 .dg {background-color: #333333; margin-top: 40px;}
+
+.lg {background-color: #7b7b7a; margin-top: 40px;}
 
 @media(max-width:767px){.sectitle {padding-top: 10px;}
 #qoutes {padding: 0px 0px 8px 0px;}
@@ -86,12 +97,23 @@ line-height: 1.2;
 .gig-info h2{white-space: nowrap;}
 
 
-.gigdetail{font-size: 18px; font-weight: 900;}
+.gigdetail{font-size: 18px; font-weight: 900; text-align: left;}
 
 .moredetail {margin-left: -25px;}
 
 .venue{margin-left: 40px;}
 
+.marginreset{margin-left: 0px}
+
 @media(max-width:767px){.venue{margin-left: 12px;}
 
+  .hide {
+  display: none;}
+  
+#fixed .slider-size {
+    height: 1000px;
+    width: 100%;
+  }
 
+
+  
