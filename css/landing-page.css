@@ -2,14 +2,14 @@ body{font-family: 'Arial Black', Arial;}
 
 
 
-#fixedbg{
+body{
     background:url('http://www.happymondaze.co.uk/images/bg.png') no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
     height:100%;
-    position:fixed;
+    /*position:fixed;*/
     width:100%;
     z-index:-1;
     top:0;
