@@ -367,12 +367,11 @@
 
 
 $(document).ready(function(){
-	
+	$(".moredetail").hide();
 	$('.moredetail').removeClass('hide')
 
 	$(".expand").click(function(){
-		
-			$(this).next(".moredetail").slideToggle(200,"swing");
+				$(this).next(".moredetail").slideToggle(200,"swing");
 			$(this).toggleClass("open");
 			return false;
 		});
