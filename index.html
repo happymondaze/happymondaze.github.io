@@ -370,7 +370,7 @@ $(document).ready(function(){
 	$('.moredetail').addClass('hide')
 
 	$(".expand").click(function(){
-		$('.moredetail').removeClass('hide')
+		$(this).next('.moredetail').removeClass('hide')
 			$(this).next(".moredetail").slideToggle(200,"swing");
 			$(this).toggleClass("open");
 			return false;
